@@ -1,0 +1,49 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# Publish output
+publish/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Dotnet tools
+.tools/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Local secrets
+secrets.json
