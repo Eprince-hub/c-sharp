@@ -1,14 +1,14 @@
+// string firstName = "Victor";
+// string lastName = "Hugo";
+
+// readonly string firstName = "Victor";
+// readonly string lastName = "Hugo";
+
+// public string firstName = "Victor";
+// public string lastName = "Hugo";
+
 public class Greeting
 {
-
-  // string firstName = "Victor";
-  // string lastName = "Hugo";
-
-  // readonly string firstName = "Victor";
-  // readonly string lastName = "Hugo";
-
-  // public string firstName = "Victor";
-  // public string lastName = "Hugo";
 
   const string firstName = "Victor";
   const string lastName = "Hugo";
