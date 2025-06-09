@@ -1,4 +1,4 @@
-﻿
+﻿using GreetingNameSpace;
 
 namespace HelloWorld
 {
@@ -21,6 +21,9 @@ namespace HelloWorld
             greetingWithLambda.Execute("Mary", "Luke", static (greet) => Console.WriteLine(greet));
             randomColor.Execute(args);
             numberGuessing.Render();
+            string readText = File.ReadAllText("Greeting.cs") ?? "";
+
+            Console.WriteLine(readText);
         }
     }
 }
