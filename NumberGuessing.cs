@@ -1,19 +1,13 @@
 public class NumberGuessing()
 {
-  readonly Random randomNumber = new Random();
 
-  public string Render()
-  {
-    int targetNumber = randomNumber.Next(1, 100);
-    MatchGuess(targetNumber);
-    return "number";
-  }
+  readonly Random randomNumber = new Random();
 
   private static void MatchGuess(int targetNumber)
   {
-    int baseCounter = 20;
+    int baseCounter, counter;
     string userInput;
-    int counter = baseCounter;
+    counter = baseCounter = 20;
 
     do
     {
@@ -58,5 +52,12 @@ public class NumberGuessing()
     } while (
       targetNumber != int.Parse(userInput) && counter > 0
     );
+  }
+
+  public string Render()
+  {
+    int targetNumber = randomNumber.Next(1, 100);
+    MatchGuess(targetNumber);
+    return "number";
   }
 }
